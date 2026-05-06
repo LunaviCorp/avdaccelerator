@@ -9,3 +9,8 @@
 .github/** @Azure/avd-accelerator-admins
 
 workload/** @Azure/avd-accelerator-admins
+
+# Lunavi fork overrides — applies on the lunavi-stable branch.
+# CODEOWNERS uses last-match-wins, so these patterns supersede the upstream
+# @Azure/avd-accelerator-admins entries above for any PR targeting this branch.
+* @lswords @ThojoUno
